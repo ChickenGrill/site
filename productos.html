@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas Chicken Grill</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffa500;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            width: 250px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 200px;
+            height: 200px;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .price {
+            color: green;
+            font-size: 18px;
+        }
+        .add-to-cart {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .add-to-cart:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CHICKEN  GRILL</h1>
+        <p>Encuentra los mejores pollos al mejor precio y al mejor estilo!</p>
+    </header>
+
+    <nav>
+        <center><a href="index.html">Inicio</a></center>
+    </nav>
+
+    <main>
+        <section class="container">
+            <!-- COMBO BIG POLLO -->
+            <div class="product">
+                <img src="img/combobigpollo.jpg" alt="Combo Big Pollo">
+                <div class="product-info">
+                    <h3>Combo Big Pollo</h3>
+                    <p>1 Pollo + Papas Fritas + Gaseosa Grande.</p>
+                    <p class="price">s/39.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- POLLO EN SALSAS ESPECIALES -->
+            <div class="product">
+                <img src="img/polloensalsasespeciales.jpg" alt="Pollo en Salsas Especiales">
+                <div class="product-info">
+                    <h3>Pollo en Salsas Especiales</h3>
+                    <p>Tiras de Pollo + Salsa Especial Chicken Grill.</p>
+                    <p class="price">s/24.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- SANDWICHES DE POLLO -->
+            <div class="product">
+                <img src="img/sandwichesdepollo.jpg" alt="Sandwiches de Pollo">
+                <div class="product-info">
+                    <h3>Sandwich de Pollo</h3>
+                    <p>Sandwich de Pollo + Crema Chicken Grill.</p>
+                    <p class="price">s/9.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- PECHUGA LIGHT -->
+            <div class="product">
+                <img src="img/pechugalight.jpg" alt="Pechuga Light">
+                <div class="product-info">
+                    <h3>Pechuga Light</h3>
+                    <p>Filete de pechuga de pollo + Ensalada Mixta.</p>
+                    <p class="price">s/17.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- BRASA EXTREMO -->
+            <div class="product">
+                <img src="img/brasaextremo.jpg" alt="Brasa Extremo">
+                <div class="product-info">
+                    <h3>Brasa Extremo</h3>
+                    <p>1/4 de Pollo + 1 Palito de Anticucho + 1 Chorizo + Papas Fritas + Ensalada.</p>
+                    <p class="price">s/34.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- ALITAS BBQ -->
+            <div class="product">
+                <img src="img/alitasbbq.png" alt="Alitas BBQ">
+                <div class="product-info">
+                    <h3>Alitas BBQ</h3>
+                    <p>Plato de Alitas Sabor BBQ + Papas Fritas.</p>
+                    <p class="price">s/14.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- ALITAS BROASTER -->
+            <div class="product">
+                <img src="img/alitasbroaster.png" alt="Alitas Broaster">
+                <div class="product-info">
+                    <h3>Alitas Broaster</h3>
+                    <p>Plato de Alitas Broaster + Papas Fritas + Crema.</p>
+                    <p class="price">s/14.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- MOSTRITO -->
+            <div class="product">
+                <img src="img/mostrito.png" alt="Mostrito">
+                <div class="product-info">
+                    <h3>Mostrito</h3>
+                    <p>Plato de Mostrito + Gaseosa pequeña.</p>
+                    <p class="price">s/19.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- POLLO SALTADO -->
+            <div class="product">
+                <img src="img/pollosaltado.jpg" alt="Pollo Saltado">
+                <div class="product-info">
+                    <h3>Pollo Saltado</h3>
+                    <p>Plato de Pollo Saltado.</p>
+                    <p class="price">s/19.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+            <!-- MILANESA A LA GRILL -->
+            <div class="product">
+                <img src="img/milanesaalagrill.jpg" alt="Milanesa a la Grill">
+                <div class="product-info">
+                    <h3>Milanesa a la Grill</h3>
+                    <p>Plato de Milanesa a la Grill + Ensalada de Verduras.</p>
+                    <p class="price">s/19.99</p>
+                   <a href="yape.html">
+                    <button class="add-to-cart">COMPRAR</button>
+                   </a>
+                </div>
+            </div>
+
+
+
+        </section>
+    </main>
+
+</body>
+</html>
